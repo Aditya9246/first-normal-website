@@ -1,5 +1,5 @@
 body {
-    background: #081b29;
+    background: white;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -19,11 +19,19 @@ header {
     align-items: center;
 }
 
-.logo{
-    font-size:25px;
-    color:black;
+.logo {
+    top: 0;
+    left: 0;
+    height: 69px;
+    width: 69px;
+    border-radius:30%
+}
+
+.logo-name{
     text-decoration:none;
-    font-weight:800;
+    color:black;
+    top:0;
+    font-size:20px;
 }
 
 ul {
@@ -32,8 +40,28 @@ ul {
     padding: 0;
 }
 
-li{
+.navbar{
+    color:white;
+    float:right;
+}
+
+.navbar a{
     float:left;
+    color:white;
+    text-align:center;
+    padding:15px;
+    font-size:25px;
+    line-height:25px;
+    border-radius:10px;
+    text-decoration:none;
+}
+
+.navbar a:hover{
+    background-color:blue;
+}
+
+li{
+    display: inline;
 }
 
 footer {
@@ -44,4 +72,20 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.socials{
+    text-decoration:none;
+    color:white;
+    padding:10px;
+    font-size:20px;
+    border-radius:10px;
+}
+
+.socials-tag{
+    font-size:20px;
+}
+
+.icons{
+    border-radius:50%
 }
