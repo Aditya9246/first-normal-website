@@ -11,9 +11,9 @@ header {
     top: 0;
     left: 0;
     width:100%;
-    color:white;
+    color:black;
     background: yellowgreen;
-    padding: 10px;
+    padding: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,42 +22,37 @@ header {
 .logo {
     top: 0;
     left: 0;
-    height: 69px;
-    width: 69px;
-    border-radius:30%
+    width: 150px;
+    border-radius:4%;
+    margin-right:10px;
 }
 
-.logo-name{
-    text-decoration:none;
-    color:black;
-    top:0;
-    font-size:20px;
+.no-text{
+    display:none;
+}
+
+.nav-obj {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+span{
+    float:inline-end;
+    margin-top:20px;
+    vertical-align:central;
 }
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-.navbar{
-    color:white;
-    float:right;
-}
-
-.navbar a{
-    float:left;
-    color:white;
-    text-align:center;
-    padding:15px;
-    font-size:25px;
-    line-height:25px;
-    border-radius:10px;
-    text-decoration:none;
-}
-
-.navbar a:hover{
-    background-color:blue;
 }
 
 li{
@@ -68,7 +63,7 @@ footer {
     background-color: black;
     color: white;
     text-align: left;
-    padding: 10px;
+    padding: 0px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -88,4 +83,25 @@ footer {
 
 .icons{
     border-radius:50%
+}
+
+.bar{
+    background-color:yellowgreen;
+    width:100%
+}
+
+.custom-active{
+    color:black;
+    text-decoration:underline;
+    font-weight:400;
+}
+
+.welcome-section{
+    position:fixed;
+    top:110px;
+    background-color:cornflowerblue;
+    width:100%;
+    color:black;
+    padding:40px;
+    font-family:monospace;
 }
