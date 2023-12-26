@@ -17,6 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 
 .logo {
@@ -104,4 +105,5 @@ footer {
     color:black;
     padding:40px;
     font-family:monospace;
+    z-index:0;
 }
